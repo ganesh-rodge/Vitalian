@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compatible Operating Systems</title>
+  <style>
+    /* Reset and Base Styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: #f3f4f6;
+    }
+
+    /* Header Styling */
+    header {
+      background-color: #008080;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* Main Content Container */
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 25px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Compatible OS Section */
+    .os-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .os {
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: calc(33.33% - 20px);
+      max-width: 250px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .os img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .os h3 {
+      font-size: 1.4em;
+      color: #008080;
+      margin-bottom: 10px;
+    }
+    .os p {
+      font-size: 0.95em;
+      line-height: 1.6;
+    }
+    .os:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Footer Styling */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #008080;
+      color: white;
+      font-size: 0.9em;
+      margin-top: 30px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1em;
+      }
+      .os {
+        width: calc(50% - 10px);
+      }
+    }
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+      .os {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Compatible Operating Systems</h1>
+    <p>Our project is optimized for the following operating systems, ensuring seamless compatibility and high performance.</p>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <section>
+      <h2 class="section-title">Supported Operating Systems</h2>
+      <div class="os-list">
+        
+        <!-- Android -->
+        <div class="os">
+          <img src="images/android.png" alt="Android Logo">
+          <h3>Android</h3>
+          <p>Compatible with the latest Android versions, providing a smooth experience on smartphones and tablets.</p>
+        </div>
+        
+        <!-- iOS -->
+        <div class="os">
+          <img src="images/iphone.png" alt="iOS Logo">
+          <h3>iOS</h3>
+          <p>Optimized for iPhones and iPads, offering full functionality and responsive design on Apple mobile devices.</p>
+        </div>
+
+        <!-- macOS -->
+        <div class="os">
+          <img src="images/macos.png" alt="macOS Logo">
+          <h3>macOS</h3>
+          <p>Fully supported on macOS, bringing native-like performance to Mac desktops and laptops.</p>
+        </div>
+
+        <!-- Windows -->
+        <div class="os">
+          <img src="images/windows.png" alt="Windows Logo">
+          <h3>Windows</h3>
+          <p>Compatible with Windows 10 and 11, ensuring a robust experience on all compatible PC devices.</p>
+        </div>
+
+        <!-- Linux -->
+        <div class="os">
+          <img src="images/linux.png" alt="Linux Logo">
+          <h3>Linux</h3>
+          <p>Supports popular Linux distributions, delivering a seamless user experience across open-source platforms.</p>
+        </div>
+
+        <!-- Chrome OS -->
+        <div class="os">
+          <img src="images/chromeos.png" alt="Chrome OS Logo">
+          <h3>Chrome OS</h3>
+          <p>Works efficiently on Chrome OS devices, enabling access on Chromebooks for flexibility and performance.</p>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Project Compatibility Guide. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

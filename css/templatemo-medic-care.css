@@ -1,14 +1,4 @@
-/*
 
-TemplateMo 566 Medic Care
-
-https://templatemo.com/tm-566-medic-care
-
-*/
-
-/*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
------------------------------------------*/
 :root {
   --white-color:                  #FFFFFF;
   --primary-color:                #247cff;
@@ -76,6 +66,11 @@ h1 {
 
 h2 {
   font-size: var(--h2-font-size);
+  .col-lg-6 h2,
+.col-lg-6 p {
+    color: #000; /* Set the color to black for darker text */
+}
+
 }
 
 h3 {
@@ -98,7 +93,7 @@ p {
   color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
 }
 
 a, 

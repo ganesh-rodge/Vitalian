@@ -1,0 +1,170 @@
+.human-body {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.human-body svg:hover {
+    cursor: pointer;
+}
+
+.human-body svg:hover path {
+    fill: #f14d49;
+}
+
+.human-body svg {
+    position: absolute;
+    left: 50%;
+}
+
+.human-body svg#head {
+    margin-left: -27px;
+    top: -6px;
+}
+
+.human-body svg#orbit {
+    margin-left: -6px;
+    top: 27px;
+}
+
+.human-body svg#neck {
+    margin-left: -21px;
+    top: 70px;
+}
+
+.human-body svg#chest {
+    margin-left: -57px;
+    top: 140px;
+}
+
+.human-body svg#right-shoulder {
+    margin-left: -90px;
+    top: 100px;
+}
+
+.human-body svg#right-arm {
+    margin-left: -162px;
+    top: 210px;
+}
+
+.human-body svg#right-hand {
+    margin-left: -197px;
+    top: 387px;
+}
+
+.human-body svg#left-shoulder {
+    margin-left: 48px;
+    top: 95px;
+}
+
+.human-body svg#left-arm {
+    margin-left: 100px;
+    top: 202px;
+}
+
+.human-body svg#left-hand {
+    margin-left: 172px;
+    top: 336px;
+}
+
+.human-body svg#abdomen {
+    margin-left: -70px;
+    top: 210px;
+}
+
+.human-body svg#right-leg {
+    margin-left: -110px;
+    top: 420px;
+    z-index: 9999;
+}
+
+.human-body svg#right-foot {
+    margin-left: -70px;
+    top: 773px;
+}
+
+.human-body svg#left-leg {
+    margin-left: -10px;
+    top: 415px;
+    z-index: 9999;
+}
+
+.human-body svg#left-foot {
+    margin-left: 40px;
+    top: 771px;
+}
+
+.human-body svg:hover ellipse {
+    fill: #f14d49;
+}
+
+.human-body svg:hover path,
+.human-body svg:hover ellipse {
+    fill: #f14d49; /* Change fill color on hover */
+}
+
+/* .human-body svg:hover::after {
+    content: attr(data-label); /* Get label from data attribute */
+//    position: absolute;
+//    background: rgba(241, 77, 73, 0.8); /* Semi-transparent red */
+//    color: white;
+//    padding: 5px;
+//    border-radius: 5px;
+//    white-space: nowrap; /* Prevent text wrap */
+//    z-index: 10;
+//    transform: translateY(-100%); /* Position above the body part */
+//    left: 50%;
+//    transform: translate(-50%, -100%); /* Center it above the part */
+//}
+
+.tooltip {
+    position: absolute;
+    background: rgba(241, 77, 73, 0.9); /* Semi-transparent red */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: nowrap; /* Prevent text wrap */
+    z-index: 10;
+    display: none; /* Initially hidden */
+}
+
+body {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.human-body {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    width: 100%; /* Ensures it scales well */
+    max-width: 800px; /* Limit maximum width */
+}
+
+/* .human-body svg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centers SVG horizontally */
+//    transition: fill 0.3s ease; /* Smooth transition for color changes */
+//} */
+
+.human-body svg:hover {
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    background: rgba(241, 77, 73, 0.9); /* Semi-transparent red */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: nowrap; /* Prevent text wrap */
+    z-index: 10;
+    display: none; /* Initially hidden */
+}
