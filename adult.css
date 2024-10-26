@@ -38,32 +38,32 @@
     top: 140px;
 }
 
-.human-body svg#right-shoulder {
+.human-body svg#rightShoulder {
     margin-left: -90px;
     top: 100px;
 }
 
-.human-body svg#right-arm {
+.human-body svg#rightArm {
     margin-left: -162px;
     top: 210px;
 }
 
-.human-body svg#right-hand {
+.human-body svg#rightHand {
     margin-left: -197px;
     top: 387px;
 }
 
-.human-body svg#left-shoulder {
+.human-body svg#leftShoulder {
     margin-left: 48px;
     top: 95px;
 }
 
-.human-body svg#left-arm {
+.human-body svg#leftArm {
     margin-left: 100px;
     top: 202px;
 }
 
-.human-body svg#left-hand {
+.human-body svg#leftHand {
     margin-left: 172px;
     top: 336px;
 }
@@ -73,24 +73,24 @@
     top: 210px;
 }
 
-.human-body svg#right-leg {
+.human-body svg#rightLeg {
     margin-left: -110px;
     top: 420px;
     z-index: 9999;
 }
 
-.human-body svg#right-foot {
+.human-body svg#rightFoot {
     margin-left: -70px;
     top: 773px;
 }
 
-.human-body svg#left-leg {
+.human-body svg#leftLeg {
     margin-left: -10px;
     top: 415px;
     z-index: 9999;
 }
 
-.human-body svg#left-foot {
+.human-body svg#leftFoot {
     margin-left: 40px;
     top: 771px;
 }
@@ -164,7 +164,7 @@ body {
     color: white;
     padding: 10px;
     border-radius: 5px;
-    white-space: nowrap; /* Prevent text wrap */
+    white-space: wrap; /* Prevent text wrap */
     z-index: 10;
     display: none; /* Initially hidden */
 }
