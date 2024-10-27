@@ -10,9 +10,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
-- [Contact](#contact)
+
 
 # Project Overview
 
@@ -80,7 +78,7 @@ npm start
 
 
 
-Usage
+## Usage
 
 1. Launch the application using the npm start command.
 
@@ -98,7 +96,7 @@ Usage
 
 
 
-Screenshots
+### Screenshots
 
 Here are some screenshots showcasing VitaLian's immersive features:
 
