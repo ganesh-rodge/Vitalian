@@ -1,8 +1,7 @@
 //https://github.com/alperbayram 
 //alper
-
-
 /*
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js" ></script>
     <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
 
@@ -69,9 +68,8 @@ function init() {
     };
 
     // texture
-
     const textureLoader = new THREE.TextureLoader( manager );
-    const texture = textureLoader.load( '../obj/brain.jpg' );
+    const texture = textureLoader.load( './obj/brain.jpg' );
 
     // model
 
@@ -89,7 +87,7 @@ function init() {
     function onError() {}
 
     const loader = new OBJLoader( manager );
-    loader.load( '../obj/freesurff.Obj', function ( obj ) {
+    loader.load( './obj/freesurff.Obj', function ( obj ) {
 
         object = obj;
 
