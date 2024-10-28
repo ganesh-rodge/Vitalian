@@ -1,12 +1,12 @@
 //https://github.com/alperbayram 
 //alper
-
+/*
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js" ></script>
     <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
 
 
-
+*/
 import * as THREE from './three.module.js';
 import { OrbitControls } from "./OrbitControls.js";
 import { OBJLoader } from './OBJLoader.js';
