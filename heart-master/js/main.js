@@ -5,7 +5,7 @@ import { MTLLoader } from './MTLLoader.js';
 import { OBJLoader } from './OBJLoader.js';
 import { TrackballControls } from './TrackballControls.js';
 	
-const BASE_URL = 'http://mattschroyer.github.io/heart/models/';
+const BASE_URL = 'https://github.com/MattSchroyer/heart/tree/master/models';
 
 const appContainer = document.getElementById("heart-app");
 
